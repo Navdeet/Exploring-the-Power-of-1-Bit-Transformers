@@ -1,14 +1,15 @@
-# Exploring-the-Power-of-1-Bit-Transformers
+## Exploring-the-Power-of-1-Bit-Transformers
 🚀 BitNet-LLama-70M: Exploring the Power of 1-Bit Transformers
 A 70M parameter model leveraging Microsoft’s breakthrough "1-bit LLMs" architecture to push the boundaries of lightweight, efficient large language models.
 
-🔬 About BitNet-LLama-70M
+#🔬 About BitNet-LLama-70M
 BitNet-LLama-70M is an experimental model that demonstrates the effectiveness of 1-bit Transformer training, inspired by Microsoft’s research from "The Era of 1-bit LLMs: All Large Language Models are in 1.58 Bits." With only 70M parameters and trained on a subset of the cosmopedia dataset, BitNet-LLama-70M aims to showcase how even small models can leverage bit-level weight efficiency for effective scaling and performance.
 ![image](https://github.com/user-attachments/assets/ddb6e867-3d6f-45a0-a8b3-f72c621d1e57)
 
 
 
-📈 Key Features and Innovations
+#📈 Key Features and Innovations
+
 ![image](https://github.com/user-attachments/assets/eddd4008-e128-4798-ab16-cafb8d4c9179)
 
 BitLinear Layer: Introducing BitLinear, a custom layer that replaces PyTorch’s nn.Linear, enabling training with 1-bit weights from scratch. This reduces computational load while maintaining high accuracy in parameter representation.
