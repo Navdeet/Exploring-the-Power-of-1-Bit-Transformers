@@ -7,8 +7,10 @@ BitNet-LLama-70M is an experimental model that demonstrates the effectiveness of
 ![image](https://github.com/user-attachments/assets/ddb6e867-3d6f-45a0-a8b3-f72c621d1e57)
 
 
+
 📈 Key Features and Innovations
-![image](https://github.com/user-attachments/assets/49dea409-e473-4a2d-a125-6308a6c649fe)
+![image](https://github.com/user-attachments/assets/eddd4008-e128-4798-ab16-cafb8d4c9179)
+
 BitLinear Layer: Introducing BitLinear, a custom layer that replaces PyTorch’s nn.Linear, enabling training with 1-bit weights from scratch. This reduces computational load while maintaining high accuracy in parameter representation.
 
 Memory and Energy Efficiency: By replacing traditional FP16 and 8-bit quantization, BitNet’s 1-bit weights dramatically reduce the memory footprint, cutting down the energy required for model training and deployment.
@@ -28,7 +30,9 @@ Note: Due to its experimental nature and smaller size, BitNet-LLama-70M may not 
 
 🌌 Next Steps and Future Plans
 Explore Larger Parameter Counts: While BitNet-LLama-70M is only 70M parameters, future iterations could expand to hundreds of millions or billions of parameters.
+
 Optimize Chat Quality: Fine-tuning BitNet with optimized training datasets and techniques could improve response quality.
+
 Extend to More Domains: Testing across varied datasets to evaluate performance in other domains and tasks.
 
 📜 References
