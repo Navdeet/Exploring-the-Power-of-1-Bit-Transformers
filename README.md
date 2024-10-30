@@ -8,6 +8,7 @@ BitNet-LLama-70M is an experimental model that demonstrates the effectiveness of
 
 
 📈 Key Features and Innovations
+![image](https://github.com/user-attachments/assets/49dea409-e473-4a2d-a125-6308a6c649fe)
 BitLinear Layer: Introducing BitLinear, a custom layer that replaces PyTorch’s nn.Linear, enabling training with 1-bit weights from scratch. This reduces computational load while maintaining high accuracy in parameter representation.
 
 Memory and Energy Efficiency: By replacing traditional FP16 and 8-bit quantization, BitNet’s 1-bit weights dramatically reduce the memory footprint, cutting down the energy required for model training and deployment.
