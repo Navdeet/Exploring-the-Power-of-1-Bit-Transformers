@@ -45,4 +45,4 @@ Note: Due to its experimental nature and smaller size, BitNet-LLama-70M may not 
 
 Microsoft Research: [The Era of 1-bit LLMs: All Large Language Models are in 1.58 Bits](https://arxiv.org/pdf/2402.17764v1)
 
-HuggingFace Dataset: HuggingFaceTB/cosmopedia
+HuggingFace Dataset: [HuggingFaceTB/cosmopedia](https://huggingface.co/datasets/HuggingFaceTB/cosmopedia-100k)
